@@ -1,0 +1,42 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+form input, form button {
+  padding: 10px;
+  margin: 5px;
+}
+#product-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.product button {
+  margin: 5px 0;
+}
+.filters input, .filters select {
+  margin-right: 10px;
+  padding: 5px;
+}

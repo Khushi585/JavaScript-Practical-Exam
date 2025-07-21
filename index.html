@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Manager</h1>
+    <form id="product-form">
+      <input type="text" id="title" placeholder="Product Title" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <input type="text" id="image" placeholder="Image URL" />
+      <input type="text" id="category" placeholder="Category" />
+      <button type="submit">Add Product</button>
+    </form>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search by title" />
+      <select id="sort">
+        <option value="">Sort By Price</option>
+        <option value="asc">Low to High</option>
+        <option value="desc">High to Low</option>
+      </select>
+    </div>
+
+   
+    <div id="showProduct"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
